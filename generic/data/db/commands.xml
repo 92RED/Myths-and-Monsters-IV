@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--
+ *    __  __       _   _                    __  __                 _                  _______      __
+ *   |  \/  |     | | | |           ___    |  \/  |               | |                |_   _\ \    / /
+ *   | \  / |_   _| |_| |__  ___   ( _ )   | \  / | ___  _ __  ___| |_ ___ _ __ ___    | |  \ \  / / 
+ *   | |\/| | | | | __| '_ \/ __|  / _ \/\ | |\/| |/ _ \| '_ \/ __| __/ _ \ '__/ __|   | |   \ \/ /  
+ *   | |  | | |_| | |_| | | \__ \ | (_>  < | |  | | (_) | | | \__ \ ||  __/ |  \__ \  _| |_   \  /   
+ *   |_|  |_|\__, |\__|_| |_|___/  \___/\/ |_|  |_|\___/|_| |_|___/\__\___|_|  |___/ |_____|   \/    
+ *            __/ |                                                                                  
+ *           |___/           
+ *                                                                        
+ *     Copyright (c) 2014 Lucky Red <https://github.com/LuckyRed>
+ *  
+ *     Licensed under the Apache License, Version 2.0 (the "License");
+ *     you may not use this file except in compliance with the License.
+ *     You may obtain a copy of the License at
+ *  
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *  
+ *     Unless required by applicable law or agreed to in writing, software
+ *     distributed under the License is distributed on an "AS IS" BASIS,
+ *     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *     See the License for the specific language governing permissions and
+ *     limitations under the License.
+ *     
+-->
+<commands>
+    <!-- End command -->
+    <command id="0">
+        <index>end</index>
+        <name>end</name>
+    </command>
+    <!-- Debug commands -->
+    <command id="1">
+        <index>enable_debug</index>
+        <name>azgarth.enable.debug</name>
+    </command>
+    <command id="2">
+        <index>disable_debug</index>
+        <name>azgarth.disable.debug</name>
+    </command>
+    <command id="3">
+        <index>wrap</index>
+        <name>wrap</name>
+    </command>
+    <!-- Player commands -->
+    <command id="10">
+        <index>take</index>
+        <name>take</name>
+        <name>get</name>
+        <name>pick</name>
+        <name>hold</name>
+    </command>
+    <command id="11">
+        <index>drop</index>
+        <name>drop</name>
+        <name>throw</name>
+        <name>toss</name>
+    </command>
+    <command id="12">
+        <index>inspect</index>
+        <name>look</name>
+        <name>l</name>
+        <name>examine</name>
+        <name>x</name>
+        <name>read</name>
+        <name>describe</name>
+        <name>inspect</name>
+    </command>
+    <command id="13">
+        <index>inventory</index>
+        <name>inventory</name>
+        <name>carrying</name>
+        <name>bag</name>
+    </command>
+    <command id="14">
+        <index>use</index>
+        <name>use</name>
+    </command>
+    <!-- Move command -->
+    <command id="200">
+        <index>go</index>
+        <name>go</name>
+        <name>move</name>
+        <name>walk</name>
+    </command>
+</commands>

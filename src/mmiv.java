@@ -8,7 +8,7 @@
  *            __/ |                                                                                  
  *           |___/           
  *                                                                        
- *     Copyright (c) 2014 Lucky Red <https://github.com/LuckyRed>
+ *     Copyright (c) 2014-2019 92RED <https://github.com/92RED>
  *  
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
